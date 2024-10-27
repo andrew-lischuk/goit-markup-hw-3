@@ -1,5 +1,20 @@
 # To-Do List
 
+- [+] Reset default margins from the browser for text headings and paragraphs
+- [+] Reset default margins and left padding for lists
+- [+] Make images as block elements
+- [+] Create a general utility class .container for centering and limiting the content width
+- [+] Define the width and paddings for the container and specify them in the CSS file
+- [+] ??? Define and specify the link paddings of the header. .nav-list? .contacts-list 
+- [+] ??? Add a top and bottom paddings 120px to all sections. .benefits-section, .team-section, .portfolio-section
+- [+] ??? Add a top and bottom paddings 188px to main section
+- [+] ??? Add max-width 296 px to .main-title 
+- [+] Add styles to .order-btn
+- [+] ??? Align elements in the main section (.main-section .container) 
+- [+] ALign elements in the benefis section (.benefits-section .container .ben-ul, .ben-li)
+- [+] Align elements in the team section
+- [+] Align elements in the portfolio section
+- [+] Align elements in the footer
 - [ ]
 - [ ]
 - [ ] Add page Title
