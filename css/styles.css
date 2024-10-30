@@ -82,7 +82,7 @@ ul {
   letter-spacing: 0.03em;
   color: #4d5ae5;
 
-  display: flex;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -229,7 +229,7 @@ ul {
 }
 
 .team-ul {
-  display: inline-flex;
+  display: flex;
   gap: 24px;
 }
 
