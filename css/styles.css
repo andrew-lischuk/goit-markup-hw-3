@@ -50,7 +50,7 @@ ul {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 76px;
+  margin-right: 332px;
 }
 
 .nav-ul,
@@ -59,7 +59,7 @@ ul {
   gap: 40px;
 }
 
-.logo-web {
+.header-logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -72,20 +72,34 @@ ul {
   margin-right: 76px;
 }
 
+.footer-logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+
+  display: flex;
+  margin-bottom: 16px;
+}
+
 .logo-studio-header {
   color: #2e2f42;
 }
 
 .navigation {
+  display: flex;
+  padding: 24px 0;
+
   font-weight: 500;
   font-size: 16px;
 
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .navigation:hover,
@@ -93,11 +107,15 @@ ul {
   color: #404bbf;
 }
 
-.contacts-section {
+.contacts-block {
   font-style: normal;
 }
 
 .contact {
+  display: flex;
+  padding: 24px 0;
+  white-space: nowrap;
+
   font-size: 16px;
 
   line-height: 1.5;
@@ -119,16 +137,12 @@ ul {
 
 .main-section {
   background-color: #2e2f42;
-
-  display: flex;
   padding: 188px 0;
-  align-items: center;
 }
 
 .main-section .container {
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 
@@ -139,8 +153,6 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-
-  display: flex;
   max-width: 496px;
   margin-bottom: 48px;
 }
@@ -188,8 +200,6 @@ ul {
 
 .ben-li {
   width: calc((100% - 72px) / 4);
-  display: flex;
-  flex-direction: column;
 }
 
 .subtitle {
@@ -214,11 +224,6 @@ ul {
   background-color: #f4f4fd;
 }
 
-.team-section .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .team-section .container .title {
   margin-bottom: 72px;
 }
@@ -226,7 +231,6 @@ ul {
 .team-ul {
   display: inline-flex;
   gap: 24px;
-  width: ((100% - 72px) / 4);
 }
 
 .team-li {
@@ -234,17 +238,11 @@ ul {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   border-radius: 0 0 4px 4px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .team-text {
   padding: 32px 0;
   text-align: center;
-  display: flex;
-  flex-direction: column;
 }
 
 .title {
@@ -267,11 +265,6 @@ ul {
   column-gap: 24px; /* Горизонтальна відстань між картками */
   row-gap: 48px;
   width: ((100% - 48px) / 3);
-}
-
-.portfolio-li {
-  display: flex;
-  flex-direction: column;
 }
 
 .portfolio-text {
@@ -300,9 +293,4 @@ ul {
 .footer-content {
   padding: 100px 0;
   max-width: 264px;
-}
-
-.footer-section .container .logo-web {
-  display: inline-block;
-  margin-bottom: 16px;
 }

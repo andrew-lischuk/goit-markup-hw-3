@@ -27,9 +27,13 @@ After the first cheking
 - [+] Change "display: block" to "display: inline-block" to link in footer
 - [+] Change "margin-bottom: 17.5px" to "margin-bottom: 16px" to link in footer
 
-- [ ]
-- [ ]
-- [ ]
+After the second cheking
+
+- [+] remove "gap:76" from .site-nav, because we need to use only one property to set the gap between the logo and the menu
+- [+] add "display: flex" (or display: block ?) to link in the navigation menu .navigation to add paddings to links
+- [+] add "white-space: nowrap" property to elements in contact block to keep the text in one row
+- [+] add margin-right: 332px to navigation menu
+- [+] remove unnecessary "display: flex" from .main-section, .main-title, .ben-li, .team-section .container, .team-li, .team-text, .portfolio-li, .footer-logo-web
 
 - [ ] Add page Title
 - [ ] Add page description
